@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3A5YJ2YUolUa2BhGLf37ZoK4LcRYDgM3nXPPQDEWWFz7aE32O0lY3ergMPLWT/UXD4dSOGD/nk8DCGHMJzwggg==",
+  "dgSpecHash": "98un33gkkjN23zx0ogJhLh+6vW9KrQfNHuwt2mNfqC6SWgEyAVGtV4JMEaQ8KG9s4GOoOD1Z4bRP6A1O2fJFDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
+  "projectFilePath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

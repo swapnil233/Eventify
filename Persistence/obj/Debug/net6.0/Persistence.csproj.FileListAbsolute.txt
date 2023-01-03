@@ -1,15 +1,30 @@
-C:\Users\IqbalH\Desktop\Eventify\Persistence\bin\Debug\net6.0\Persistence.deps.json
-C:\Users\IqbalH\Desktop\Eventify\Persistence\bin\Debug\net6.0\Persistence.dll
-C:\Users\IqbalH\Desktop\Eventify\Persistence\bin\Debug\net6.0\Persistence.pdb
-C:\Users\IqbalH\Desktop\Eventify\Persistence\bin\Debug\net6.0\Domain.dll
-C:\Users\IqbalH\Desktop\Eventify\Persistence\bin\Debug\net6.0\Domain.pdb
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.dll
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\refint\Persistence.dll
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\Persistence.pdb
-C:\Users\IqbalH\Desktop\Eventify\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+C:/Users/IqbalH/Desktop/Eventify/Persistence/bin/Debug/net6.0/Persistence.deps.json
+C:/Users/IqbalH/Desktop/Eventify/Persistence/bin/Debug/net6.0/Persistence.dll
+C:/Users/IqbalH/Desktop/Eventify/Persistence/bin/Debug/net6.0/Persistence.pdb
+C:/Users/IqbalH/Desktop/Eventify/Persistence/bin/Debug/net6.0/Domain.dll
+C:/Users/IqbalH/Desktop/Eventify/Persistence/bin/Debug/net6.0/Domain.pdb
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfoInputs.cache
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfo.cs
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.CopyComplete
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.dll
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/refint/Persistence.dll
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/Persistence.pdb
+C:/Users/IqbalH/Desktop/Eventify/Persistence/obj/Debug/net6.0/ref/Persistence.dll
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/bin/Debug/net6.0/Persistence.deps.json
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/bin/Debug/net6.0/Persistence.dll
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/bin/Debug/net6.0/Persistence.pdb
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/bin/Debug/net6.0/Domain.dll
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/bin/Debug/net6.0/Domain.pdb
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfoInputs.cache
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfo.cs
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.csproj.CopyComplete
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.dll
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/refint/Persistence.dll
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/Persistence.pdb
+/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/Debug/net6.0/ref/Persistence.dll
