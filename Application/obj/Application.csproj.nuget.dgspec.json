@@ -1,36 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Application/Application.csproj": {}
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Application/Application.csproj": {
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Application/Application.csproj",
-        "packagesPath": "/Users/hasaniqbal/.nuget/packages/",
-        "outputPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Application/obj/",
+        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hasaniqbal/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.int.ec.gc.ca/nuget": {},
+          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj": {
-                "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj"
+              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
               },
-              "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/Persistence.csproj": {
-                "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/Persistence.csproj"
+              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -50,8 +54,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,26 +63,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj": {
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj",
-        "packagesPath": "/Users/hasaniqbal/.nuget/packages/",
-        "outputPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/obj/",
+        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hasaniqbal/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.int.ec.gc.ca/nuget": {},
+          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,8 +110,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -113,34 +119,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/Persistence.csproj": {
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/hasaniqbal/.nuget/packages/",
-        "outputPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Persistence/obj/",
+        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hasaniqbal/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.int.ec.gc.ca/nuget": {},
+          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj": {
-                "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj"
+              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
               }
             }
           }
@@ -155,6 +165,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.12, )"
@@ -166,8 +180,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -176,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

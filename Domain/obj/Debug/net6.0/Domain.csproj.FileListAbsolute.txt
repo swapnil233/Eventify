@@ -1,15 +1,3 @@
-C:/Users/IqbalH/Desktop/Eventify/Domain/bin/Debug/net6.0/Domain.deps.json
-C:/Users/IqbalH/Desktop/Eventify/Domain/bin/Debug/net6.0/Domain.dll
-C:/Users/IqbalH/Desktop/Eventify/Domain/bin/Debug/net6.0/Domain.pdb
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.dll
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/refint/Domain.dll
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/Domain.pdb
-C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/ref/Domain.dll
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/bin/Debug/net6.0/Domain.deps.json
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/bin/Debug/net6.0/Domain.dll
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/bin/Debug/net6.0/Domain.pdb
@@ -22,3 +10,15 @@ C:/Users/IqbalH/Desktop/Eventify/Domain/obj/Debug/net6.0/ref/Domain.dll
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/obj/Debug/net6.0/refint/Domain.dll
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/obj/Debug/net6.0/Domain.pdb
 /Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/obj/Debug/net6.0/ref/Domain.dll
+C:\Users\IqbalH\Desktop\Eventify\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\IqbalH\Desktop\Eventify\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\IqbalH\Desktop\Eventify\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\IqbalH\Desktop\Eventify\Domain\obj\Debug\net6.0\ref\Domain.dll

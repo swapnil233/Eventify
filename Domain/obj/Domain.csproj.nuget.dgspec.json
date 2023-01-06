@@ -1,25 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj": {}
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj": {
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/Domain.csproj",
-        "packagesPath": "/Users/hasaniqbal/.nuget/packages/",
-        "outputPath": "/Users/hasaniqbal/Desktop/Side Projects/Eventify/Domain/obj/",
+        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hasaniqbal/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.int.ec.gc.ca/nuget": {},
+          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +47,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
