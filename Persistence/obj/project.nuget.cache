@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SX/j4IXBuSvYmfsEH5qSTeyKOhOiqn/cGk2+orJzKf7/N/9QiQ0LHAHK6fl3M4CxIHfkNv183K1eqnLVI/1x1A==",
+  "dgSpecHash": "uWug+bTT6RMw5FRNdZMDsfzHnuXb0JYzAH/NjIUEWbDWeZX/zRaDYfZaHFbpOnGlCn0vlqqQuxNOystf2mP6Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+  "projectFilePath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IqbalH\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.12\\microsoft.data.sqlite.core.6.0.12.nupkg.sha512",
     "C:\\Users\\IqbalH\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",

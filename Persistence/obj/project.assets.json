@@ -1166,8 +1166,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
+            "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
             }
           }
         }

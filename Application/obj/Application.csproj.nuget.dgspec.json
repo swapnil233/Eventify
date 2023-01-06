@@ -21,6 +21,9 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.int.ec.gc.ca/nuget": {},
+          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -30,8 +33,8 @@
               "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
                 "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
               },
-              "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
-                "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
+              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -46,6 +49,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -126,14 +133,14 @@
         }
       }
     },
-    "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
