@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {}
+    "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {
+    "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\obj\\",
+        "outputPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,20 +21,17 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://tfs.int.ec.gc.ca/nuget": {},
-          "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
+              "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
+              "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -48,6 +45,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+    "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
+              "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
               }
             }
           }

@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "MediatR/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "11.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/6.0.12": {
         "type": "package",
         "dependencies": {
@@ -497,6 +531,49 @@
     }
   },
   "libraries": {
+    "MediatR/11.0.0": {
+      "sha512": "8klzVGZQiA2oxZRzQFBZbdPD/IQUm9RYtfiyTDKhxDQ99Gi93+GXt1ZJjH2D7Lh7ZFHCv5XdkwbmfHEQBCatPg==",
+      "type": "package",
+      "path": "mediatr/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.Data.Sqlite.Core/6.0.12": {
       "sha512": "bui5wPPqq9OwTL5A+YJPcVStTPrOFcLwg/kAVWyqdjrTief4kTK/3bNv0MqUDVNgAUG8pcFbtdc674CIh1F3gw==",
       "type": "package",
@@ -1153,6 +1230,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Domain >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Persistence >= 1.0.0"
     ]
   },
@@ -1162,11 +1240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
+      "projectUniqueName": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
+      "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\IqbalH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\obj\\",
+      "outputPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\IqbalH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1176,20 +1254,17 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://tfs.int.ec.gc.ca/nuget": {},
-        "http://tfs.int.ec.gc.ca:8080/tfs/DC/_packaging/SeasNuGet@Local/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
+            "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
+            "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj": {
+              "projectPath": "c:\\Users\\IqbalH\\Desktop\\Eventify\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1203,6 +1278,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
