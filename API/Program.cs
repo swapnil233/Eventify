@@ -9,9 +9,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// SQLite DB Service
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+// Cors Service
+builder.Services.AddCors(options => {
+    options.AddPolicy("CorsPolicy", policy => {
+        policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
+    });
 });
 
 var app = builder.Build();
@@ -22,6 +31,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Use CORS
+app.UseCors("CorsPolicy");
+
+// Enable authorization capabilities
+app.UseAuthorization();
 
 // Registers endpoints
 app.MapControllers();
