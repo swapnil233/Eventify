@@ -6,28 +6,28 @@ namespace API.Controllers;
 public class ActivitiesController : BaseApiController
 {
     // GET /api/activities
-    [HttpGet]
+    [HttpGet("/api/activities/")]
     public async Task<ActionResult<List<Activity>>> GetActivities()
     {
         return await Mediator.Send(new List.Query());
     }
 
     // GET /api/activities/{id}
-    [HttpGet("{id}")]
+    [HttpGet("/api/activities/{id}")]
     public async Task<ActionResult<Activity>> GetActivity(Guid id)
     {
         return await Mediator.Send(new Details.Query{Id = id});
     }
 
     // POST /api/activities
-    [HttpPost]
+    [HttpPost("/api/activities/")]
     public async Task<IActionResult> CreateActivity(Activity activity)
     {
         return Ok(await Mediator.Send(new Create.Command{Activity = activity}));
     }
 
     // PUT /api/activities/{id}
-    [HttpPut("{id}")]
+    [HttpPut("/api/activities/{id}")]
     public async Task<IActionResult> EditActivity(Guid id, Activity activity)
     {
         activity.Id = id;
@@ -35,7 +35,7 @@ public class ActivitiesController : BaseApiController
     }
 
     // DELETE /api/activities/{id}
-    [HttpDelete("{id}")]
+    [HttpDelete("/api/activities/{id}")]
     public async Task<IActionResult> DeleteActivity(Guid id)
     {
         return Ok(await Mediator.Send(new Delete.Command{Id = id}));
