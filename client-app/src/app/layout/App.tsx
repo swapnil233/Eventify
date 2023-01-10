@@ -1,15 +1,15 @@
-import { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import '../layout/styles.css'
 import axios from 'axios';
-import List from 'semantic-ui-react/dist/commonjs/elements/List';
-import { Activity } from '../models/activity';
+import { Container, Header } from 'semantic-ui-react';
+import ActivityDashboard from '../features/activities/dashboard/ActivityDashboard';
 import NavBar from './NavBar';
-import { Container } from 'semantic-ui-react';
 
 function App() {
-  const [activities, setActivities] = useState<Activity[]>([]);
+  const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    axios.get<Activity[]>('https://localhost:5000/api/activities')
+    axios.get('https://localhost:5000/api/activities')
       .then(response => {
         setActivities(response.data);
       })
@@ -18,16 +18,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container style={{marginTop: '7em'}}>
-        <List>
-          {
-            activities.map(activity => (
-              <List.Item key={activity.id}>
-                {activity.title}
-              </List.Item>
-            ))
-          }
-        </List>
+      <Container style={{marginTop:'7em'}}>
+        <ActivityDashboard activities={activities}/>
       </Container>
     </>
   );
