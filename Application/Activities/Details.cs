@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain;
 using MediatR;
 using Persistence;
@@ -9,7 +5,7 @@ using Persistence;
 namespace Application.Activities;
 public class Details
 {
-    public class Query : IRequest<Activity> 
+    public class Query : IRequest<Activity>
     {
         public Guid Id { get; set; }
     }
