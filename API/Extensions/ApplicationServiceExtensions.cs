@@ -17,9 +17,11 @@ public static class ApplicationServiceExtensions
         });
 
         // Cors Service
-        services.AddCors(options => {
-            options.AddPolicy("CorsPolicy", policy => {
-                policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
+        services.AddCors(options =>
+        {
+            options.AddPolicy("CorsPolicy", policy =>
+            {
+                policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://localhost:3000");
             });
         });
 
